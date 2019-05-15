@@ -120,6 +120,49 @@
                                     <action selector="nosButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QOZ-u3-sxM"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ya2-ZC-gMe">
+                                <rect key="frame" x="66" y="616" width="136" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JVo-R1-f8G">
+                                <rect key="frame" x="66" y="696" width="136" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b0b-d8-2XD">
+                                <rect key="frame" x="66" y="776" width="136" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="contactAdd" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9bm-qM-Q9b">
+                                <rect key="frame" x="326" y="660" width="22" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="facilAgeUpButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8LW-CZ-bE8"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6TD-rI-DgG">
+                                <rect key="frame" x="315" y="727" width="45" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Coach"/>
+                                <connections>
+                                    <action selector="coachButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LHP-1g-TFg"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vza-wl-m3f">
+                                <rect key="frame" x="135" y="817" width="143" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -128,9 +171,13 @@
                         <outlet property="carHPLabel" destination="nbE-dM-GON" id="GRn-Hc-Nce"/>
                         <outlet property="carNameLabel" destination="GiD-CB-fhg" id="AgU-pL-su5"/>
                         <outlet property="carSpeedLabel" destination="6jo-U3-5Sx" id="0EP-nu-2eJ"/>
+                        <outlet property="facilAgeLabel" destination="JVo-R1-f8G" id="PnK-wA-9cj"/>
+                        <outlet property="facilGenderLabel" destination="b0b-d8-2XD" id="Giz-3i-wX9"/>
+                        <outlet property="facilNameLabel" destination="Ya2-ZC-gMe" id="apC-wQ-Qnw"/>
                         <outlet property="learnerAgeLabel" destination="h5q-98-1aT" id="loB-Mb-F4g"/>
                         <outlet property="learnerGenderLabel" destination="hRP-Ki-vJX" id="RHm-zE-nkG"/>
                         <outlet property="learnerNameLabel" destination="6u3-0L-frb" id="Hwm-4r-jCH"/>
+                        <outlet property="statusMenteeLabel" destination="vza-wl-m3f" id="vaV-cc-5CN"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

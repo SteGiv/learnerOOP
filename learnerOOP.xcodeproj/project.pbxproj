@@ -13,6 +13,7 @@
 		13B32ECD228BD87F006EEED0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B32ECC228BD87F006EEED0 /* Assets.xcassets */; };
 		13B32ED0228BD87F006EEED0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13B32ECE228BD87F006EEED0 /* LaunchScreen.storyboard */; };
 		13B32ED8228BE584006EEED0 /* learnerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B32ED7228BE584006EEED0 /* learnerModel.swift */; };
+		13B32EDA228C031C006EEED0 /* FacilitatorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B32ED9228C031C006EEED0 /* FacilitatorModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		13B32ECF228BD87F006EEED0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		13B32ED1228BD87F006EEED0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		13B32ED7228BE584006EEED0 /* learnerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = learnerModel.swift; sourceTree = "<group>"; };
+		13B32ED9228C031C006EEED0 /* FacilitatorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacilitatorModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				13B32ECE228BD87F006EEED0 /* LaunchScreen.storyboard */,
 				13B32ED1228BD87F006EEED0 /* Info.plist */,
 				13B32ED7228BE584006EEED0 /* learnerModel.swift */,
+				13B32ED9228C031C006EEED0 /* FacilitatorModel.swift */,
 			);
 			path = learnerOOP;
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13B32EDA228C031C006EEED0 /* FacilitatorModel.swift in Sources */,
 				13B32ED8228BE584006EEED0 /* learnerModel.swift in Sources */,
 				13B32EC8228BD87F006EEED0 /* ViewController.swift in Sources */,
 				13B32EC6228BD87F006EEED0 /* AppDelegate.swift in Sources */,
