@@ -24,3 +24,33 @@ class learnerModel {
         self.age += 1
     }
 }
+
+class Lamborghini
+{
+    var name: String
+    var horsePower: Int
+    var speed: Int
+
+    init(carName: String, carHorsePower: Int, carSpeed: Int) {
+        self.name = carName
+        self.horsePower = carHorsePower
+        self.speed = carSpeed
+    }
+    
+    func increaseSpeed(){
+        self.speed += 10
+    }
+    
+    func reduceSpeed()  {
+        self.speed -= 5
+    }
+    
+    func stopCar() {
+        self.speed -= speed
+    }
+    
+    func useNOS() {
+        self.horsePower += 50
+        self.speed += 30
+    }
+}
